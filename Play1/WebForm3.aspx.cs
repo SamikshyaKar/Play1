@@ -7,28 +7,31 @@ using System.Web.UI.WebControls;
 
 namespace Play1
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm3 : System.Web.UI.Page
     {
 
-        int clickscount = 0;
+        int clickscount = 1;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            if  (!IsPostBack)
             {
-
                 TextBox1.Text = "0";
+
             }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            clickscount = clickscount + 1;
-            TextBox1.Text = clickscount.ToString();
-        }
+            if (ViewState["Clicks"] != null)
+                {
+                   clickscount = (int)ViewState["Clicks"] + 1;
 
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-            
+                }
+
+            TextBox1.Text = clickscount.ToString();
+            ViewState["Clicks"] = clickscount;
+
         }
     }
 }
