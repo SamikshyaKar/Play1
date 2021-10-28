@@ -56,4 +56,3 @@ C:\Users\Samikshya\PROGRAMME\PROJECTS\ASPNETFramework\Framework_Kud\Play1\Play1\
 C:\Users\Samikshya\PROGRAMME\PROJECTS\ASPNETFramework\Framework_Kud\Play1\Play1\obj\Debug\Play1.csproj.CopyComplete
 C:\Users\Samikshya\PROGRAMME\PROJECTS\ASPNETFramework\Framework_Kud\Play1\Play1\obj\Debug\Play1.dll
 C:\Users\Samikshya\PROGRAMME\PROJECTS\ASPNETFramework\Framework_Kud\Play1\Play1\obj\Debug\Play1.pdb
-C:\Users\Samikshya\PROGRAMME\PROJECTS\ASPNETFramework\Framework_Kud\Play1\Play1\obj\Debug\Play1.csproj.AssemblyReference.cache
